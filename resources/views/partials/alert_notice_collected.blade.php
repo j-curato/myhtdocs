@@ -1,0 +1,1 @@
+<div class="alert alert-success alert-notice-success-collected" role="alert"><strong>Notice:</strong> Successfully mark as collected.</div>
