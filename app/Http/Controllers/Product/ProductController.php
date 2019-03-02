@@ -37,11 +37,8 @@ class ProductController extends Controller
   
     public function store(Request $request){
 
-    	  
-         for($i=0;$i<4999;$i++){
           $products = Product::create($request->all());
-        }
-
+ 
            if($products){
 
              $notification = "Success";
