@@ -45,8 +45,10 @@
                 
                </div>
 
+              
+
  <hr>
- 
+        
  <table id="table-prodpharma-contents" class="display" cellspacing="0" width="100%">
         <thead>
             <tr>
