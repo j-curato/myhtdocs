@@ -127,6 +127,8 @@
                     ],"order": [[ 5, 'desc' ]]
               });
 
+
+
               $.get("{{ url('getpoCurrID') }}", function(data){
                 var json = JSON.parse(data);  
                 //document.getElementsByClassName("po-code").value = json.notify;
