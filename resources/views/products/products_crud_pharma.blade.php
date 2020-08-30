@@ -7,6 +7,9 @@
 @include('partials.editProdPharma_modal')
 @include('partials.po_modal')
         
+
+
+
 <div id="page-wrapper" >
     <div id="page-inner">
 
@@ -47,7 +50,7 @@
 
 <h1>hello vs code editor</h1>
  <hr>
-        
+ 
  <table id="table-prodpharma-contents" class="display" cellspacing="0" width="100%">
         <thead>
             <tr>
