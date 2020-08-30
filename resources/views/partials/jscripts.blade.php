@@ -33,6 +33,8 @@
     var dataPurchases;
     var dataSales;
 
+    //sample vs code comment
+
             $.ajaxSetup({
                 headers: {
                     'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
@@ -126,8 +128,6 @@
                     { type : 'date', targets : [5] } 
                     ],"order": [[ 5, 'desc' ]]
               });
-
-
 
               $.get("{{ url('getpoCurrID') }}", function(data){
                 var json = JSON.parse(data);  
