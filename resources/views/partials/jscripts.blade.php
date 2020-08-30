@@ -33,8 +33,6 @@
     var dataPurchases;
     var dataSales;
 
-    //sample vs code comment
-
             $.ajaxSetup({
                 headers: {
                     'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
